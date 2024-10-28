@@ -30,7 +30,7 @@ export default function Select({
           side="bottom"
           position="popper"
           sideOffset={8}
-          className="z-10 w-full rounded-lg border border-zinc-200 bg-white shadow-sm"
+          className="animate-slideDownAndFade z-10 w-full rounded-lg border border-zinc-200 bg-white shadow-sm"
         >
           <SelectPrimitive.Viewport>{children}</SelectPrimitive.Viewport>
         </SelectPrimitive.Content>
