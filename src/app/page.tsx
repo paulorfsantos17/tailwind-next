@@ -1,4 +1,4 @@
-import { InputControl, InputPrefix, InputRoot } from '@/components/Input'
+import { InputControl, InputPrefix, InputRoot } from '@/components/Form/Input'
 import SettingsTabs from '@/components/SettingsTabs'
 import { Bold, Italic, Link, List, ListOrdered, Mail } from 'lucide-react'
 import * as InputFile from '@/components/Form/FileInput/index'
