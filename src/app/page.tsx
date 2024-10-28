@@ -133,7 +133,13 @@ export default function Home() {
             >
               Timezone
             </label>
-            <div></div>
+            <Select placeholder="Select a Timezone...">
+              <SelectItem
+                text="Pacific Standard Time (PST) UTC−08:00"
+                value="pacific"
+              />
+              <SelectItem text="America São Paulo  UTC−03:00" value="br" />
+            </Select>
           </div>
 
           <div className="grid grid-cols-form gap-3 pt-5">
